@@ -50,3 +50,14 @@ h2{
   margin-top:15px;
 }
 
+body::after {
+  content: "Made by Yogesh Bhatt ❤️";
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  font-family: Arial, sans-serif;
+  opacity: 0.9;
+}
